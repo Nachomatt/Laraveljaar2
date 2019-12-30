@@ -1,0 +1,592 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.errorfoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Logofoto {
+    height: 50px;
+    width: 50px;
+}
+
+.weclothetitel {
+    font-size: 14px;
+    font-family: Kremlin;
+    text-shadow: 1px 1px black;
+    color:white;
+}
+
+.weclothehome {
+    font-family: Kremlin;
+    color: #000000;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+    position: absolute;
+    top: 10%;
+    left: 38%;
+}
+
+.links > a {
+    color: #f7f7f7;
+    text-shadow: 1px 1px #000000;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.wt
+{
+    color: #f7f7f7;
+    text-shadow: 1px 1px #000000;
+}
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.Logohome {
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    top: 20%;
+    left: -10%;
+
+}
+
+.Homepagetekst {
+    font-size: 14px;
+}
+
+.kaarttekst {
+    font-size: 20px;
+}
+
+.card-body {
+    background-color: #f9f9f9;
+}
+
+.homepagina {
+    background: linear-gradient(#ff6d6d, #ed3d3d);
+    //background: linear-gradient(#ffa0a0,#ffa0a0);
+    font-family: 'Aller', sans-serif;
+    font-weight: 200;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+
+}
+.card-header{
+    background-color:#d3d9df;
+    border-style: solid;
+    border-width:1px;
+    border-color: #000000;
+    border-radius:5px;
+}
+.cardhome
+{
+    border-style: solid;
+    border-width:1px;
+    border-color: #000000;
+    border-radius:5px;
+}
+.productfoto
+{
+    height:25px;
+    width:25px;
+}
+.productfotonormaal
+{
+    height:150px;
+    width:150px;
+}
+.productlijst
+{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 155px;
+    margin-left: 145px;
+}
+.productitem{
+    margin:1px;
+    border-style: solid;
+    border-width:1px;
+    border-color:#000000;
+    background-color:#f8fafc;
+
+    border-radius:5px;
+}
+.zoekbalk
+{
+    margin-left:auto;
+    margin-right:500px;
+    width:45%;
+}
+body
+{
+    overflow-x:hidden;
+
+
+}
+.footertekst
+{
+    position:relative;
+    bottom:20px;
+    text-align:center;
+    font-size:12px;
+    margin-top:45px;
+}
+.tabelhoofd
+{
+    background-color:#ff7575;
+}
+.tabelmidden
+{
+    background:linear-gradient(#ff7272,#ff6060);
+}
+.knopje
+{
+    background: linear-gradient(#d64646, #ba3b3b);
+    border-radius:6px;
+    margin:2px;
+    border: 1px black;
+    border-style:solid;
+
+}
+.knoptekst
+{
+    font-size:16px;
+    color:#ffffff;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+
+.details
+{
+    background-color:#4aa0e6;
+    border-radius:6px;
+    margin:2px;
+    width:50px;
+    height:50px;
+}
+
+
+tr
+{
+    margin:0;
+    padding:0;
+}
+
+html {
+    min-height: 100%;
+    background: linear-gradient(#ff6d6d, #ed3d3d);
+}
+.weclothenav
+{
+    background:linear-gradient(#cc0000,#f25959);
+    border-bottom: 1px #d31f1f;
+    border-style:solid;
+    width:105%;
+}
+.adminnav
+{
+    background-color:#e9605c;
+}
+.dropdown-item:hover
+{
+    background-color:#ff706b;
+}
+.goback
+{
+    display: block;
+    width: 100px;
+    height: 45px;
+    background: linear-gradient(#ff5454, #e54b4b);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left:20px;
+}
+.productlijst2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.aanpassen
+{
+    display: block;
+    width: 150px;
+    height: 45px;
+    background: linear-gradient(#ffa149, #f49842);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left:20px;
+}
+.verwijderen
+{
+    display: block;
+    width: 150px;
+    height: 45px;
+    background: linear-gradient(#c12424, #c12424);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left:20px;
+}
+.goback:hover {
+    color: white;
+    text-decoration: none;
+}
+.aanpassen:hover {
+    color: white;
+    text-decoration: none;
+}
+.verwijderen:hover {
+    color: white;
+    text-decoration: none;
+}
+.permissionlijst
+{
+    margin-left:20px;
+}
+.btn
+{
+    margin-left:20px;
+}
+.aanpassen2
+{
+    display: block;
+    width: 150px;
+    height: 45px;
+    background: linear-gradient(#ff4c4c, #e84545);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left:20px;
+}
+.aanpassen3
+{
+    display: block;
+    width: 175px;
+    height: 45px;
+    background: linear-gradient(#ff4c4c, #e84545);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left:20px;
+}
+.aanpassen2:hover {
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(#db3d3d, #cc3939);
+}
+.aanpassen3:hover {
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(#db3d3d, #cc3939);
+}
+.details:hover
+{
+    background-color:#4393d3;
+    text-decoration:none;
+}
+.shoppingcart
+{
+    text-align:center;
+}
+.knoptekst2
+{
+    font-size:36px;
+    color:#ffffff;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+.infotabel
+{
+    background-color:#f7f7f7;
+}
+.aanpassen4
+{
+    display: block;
+    width: 125px;
+    height: 35px;
+    background: linear-gradient(#ff4c4c, #e84545);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left:20px;
+    font-size:12px;
+}
+.aanpassen5
+{
+    display: block;
+    width: 165px;
+    height: 35px;
+    background: linear-gradient(#ff4c4c, #e84545);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left:20px;
+    font-size:12px;
+}
+.goback2
+{
+    display: block;
+    width: 450px;
+    height: 45px;
+    background: linear-gradient(#d64646, #ba3b3b);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left:20px;
+}
+.aanpassen6
+{
+    display: block;
+    width: 185px;
+    height: 35px;
+    background: linear-gradient(#ff4c4c, #e84545);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    font-size:12px;
+}
+.aanpassen4:hover {
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(#db3d3d, #cc3939);
+}
+.aanpassen5:hover {
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(#db3d3d, #cc3939);
+}
+.aanpassen6:hover {
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(#db3d3d, #cc3939);
+}
+
+.verwijderen2
+{
+    display: block;
+    width: 180px;
+    height: 45px;
+    background: linear-gradient(#c12424, #c12424);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left:20px;
+}
+.betalen
+{
+    position:absolute;
+    left:85%;
+    top:75%;
+    font-size:20px;
+    height:90px;
+    margin-bottom:200px;
+}
+
+.wcfooter {
+    position: absolute;
+    width:100%;
+    bottom: 0;
+    background-color: #efefef;
+    text-align: center;
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+}
+.smallpage
+{
+    height:80vh;
+}
+.kopje
+{
+    text-align:center;
+    margin-bottom:50px;
+}
+.reviewitem
+{
+    width:20%;
+    height:20%;
+}
+.productlijst3
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    width: 150%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top:100px;
+}
+.reviewadd
+{
+    position:absolute;
+    left:85%;
+    top:4%;
+    font-size:20px;
+    height:60px;
+    margin-bottom:200px;
+}
+.productitem2{
+    margin:1px;
+    border-style: solid;
+    border-width:1px;
+    border-color:#000000;
+    background-color:#f8fafc;
+    width:300px;
+    height:150px;
+    border-radius:5px;
+}
+.aanpassen7
+{
+    position:relative;
+    display: block;
+    width: 55px;
+    height: 35px;
+    left:170px;
+    bottom:20px;
+    background: linear-gradient(#ff4c4c, #e84545);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size:12px;
+}
+.aanpassen8
+{
+    position:relative;
+    display: block;
+    width: 55px;
+    height: 35px;
+    left:226px;
+    bottom:55px;
+    background: linear-gradient(#ff4c4c, #e84545);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size:12px;
+}
+.linkerkant
+{
+    float:left;
+}
+.aanpassen9
+{
+    position:relative;
+    display: block;
+    width: 55px;
+    height: 35px;
+    left:170px;
+    bottom:30px;
+    background: linear-gradient(#ff4c4c, #e84545);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size:12px;
+}
+.aanpassen10
+{
+    position:relative;
+    display: block;
+    width: 55px;
+    height: 35px;
+    left:226px;
+    bottom:65px;
+    background: linear-gradient(#ff4c4c, #e84545);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size:12px;
+}
+.totaalprijs
+{
+    display:none;
+}
+.smallpage2
+{
+    height:100vh;
+}
